@@ -5,3 +5,5 @@
 \app\src\main\res\drawable
 
 \app\src\main\java\com\example\dressgame
+
+추가로 package 이름을 dressgame으로 설정하거나, 파일의 package와 import부분을 설정한 폴더명으로 변경하셔야 합니다.
