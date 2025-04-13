@@ -1,5 +1,6 @@
 package com.example.dressgame.uiComponent
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -17,7 +18,8 @@ import com.example.dressgame.model.ImageData
 fun ButtonList(modifier: Modifier = Modifier,imageList: MutableState<SnapshotStateList<ImageData>>) {
     Column(
         modifier = Modifier
-            .fillMaxHeight()
+            .fillMaxHeight(),
+        verticalArrangement = Arrangement.Center
     ) {
         for (i in 0..4) {
             Row(
